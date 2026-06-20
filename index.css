@@ -8,9 +8,15 @@
 
         .hero {
             position: relative;
-            width: 100vw;
-            height: 100vh;
-            background: url("blue-waterfall.jpeg") no-repeat center center/cover;
+            display: inline-block;
+        }
+
+        .hero-image {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            vertical-align: top;
         }
 
         /* Soft gradient overlay */
